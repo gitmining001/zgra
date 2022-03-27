@@ -1,4 +1,3 @@
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-apt install unzip
-unzip ngrok-stable-linux-amd64.zip
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
+tar fx ngrok-stable-linux-amd64.tgz
 ./ngrok http 8787 
