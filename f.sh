@@ -1,2 +1,3 @@
 apt-get install localtunnel
-lt --host http://loca.lt --port 8787
+lt -h "http://serverless.social" -p 8787 
+
