@@ -1,3 +1,4 @@
-apt-get install localtunnel
-lt -h "http://serverless.social" -p 8787 
+apt install nodejs npm nodejs-legacy
+npm install -g localtunnel
+lt --port 8787 
 
