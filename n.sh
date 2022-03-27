@@ -1,4 +1,4 @@
-apt install nodejs npm nodejs-legacy
-npm install -g localtunnel
+sudo apt install nodejs npm nodejs-legacy
+sudo npm install -g localtunnel
 lt --port 8787 
 
